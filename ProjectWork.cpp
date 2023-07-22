@@ -191,7 +191,7 @@ int main(){
   fstream malestudentsdataout;
   fstream femalestudentsdataout;
 
-cout<<" GROUP S PLACEMENT SYSYTEM\n";
+cout<<" GROUP S SCHOOL PLACEMENT SYSYTEM\n";
  cout<< " press 1 - To Register As A New Student\n"
     <<" press 2 - To Check Results\n"
     <<" press 3 - To Exit Application\n";
