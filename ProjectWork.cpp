@@ -8,7 +8,6 @@
 
 
 using namespace std;
-
 class Student{
     private:
     string firstName;
@@ -209,6 +208,7 @@ cout<<" GROUP S SCHOOL PLACEMENT SYSYTEM\n";
 
    char choice;
 
+
    malestudents *ptrmalestudents[1000];
    do{
      int results[8];
@@ -267,6 +267,7 @@ cout<<" GROUP S SCHOOL PLACEMENT SYSYTEM\n";
         switch(i){
           case 0:cout<<"Mathematics : \n";
         cin>>results[i];
+        
         break;
         case 1:cout<<"Integrated Science : \n";
         cin>>results[i];
@@ -290,6 +291,7 @@ cout<<" GROUP S SCHOOL PLACEMENT SYSYTEM\n";
         cin>>results[i];
         break;
         }
+        int *res = &results[i];
         int sum = 0;
         sum += results[i];
         femalestudentsdataout<<','<<results[i];
